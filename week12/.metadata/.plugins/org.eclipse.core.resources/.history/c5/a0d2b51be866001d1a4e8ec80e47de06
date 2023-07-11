@@ -1,4 +1,0 @@
-
-public class Professor extends Person{
-	String getPhone() { super.getPhone(); }
-}

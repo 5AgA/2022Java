@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;Prac14_1StringTokenizer.java&apos; to &apos;Practice14_1/src/week14&apos;&#x0D;&#x0A;- Original project: &apos;Practice14_1&apos;&#x0D;&#x0A;- Destination element: &apos;Practice14_1/src/week14&apos;&#x0D;&#x0A;- Original element: &apos;Prac14_1StringTokenizer.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;week14" element1="/src&lt;{Prac14_1StringTokenizer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1669945978717" units="1" version="1.0"/>
-</session>

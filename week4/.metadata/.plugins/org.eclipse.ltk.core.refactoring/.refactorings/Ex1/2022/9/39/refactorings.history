@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;Season.java&apos; to &apos;Ex1.java&apos;&#x0D;&#x0A;- Original project: &apos;Season&apos;&#x0D;&#x0A;- Original element: &apos;Season.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Ex1.java&apos;" description="Rename compilation unit &apos;Season.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Season.java" name="Ex1.java" references="false" stamp="1663893962568" version="1.0"/>
-</session>

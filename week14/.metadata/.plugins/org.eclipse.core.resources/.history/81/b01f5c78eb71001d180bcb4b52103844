@@ -1,9 +1,0 @@
-import java.util.Calendar;
-public class Cal {
-
-	public static void main(String[] args) {
-		System.out.println("지금은 " + Calendar.HOUR + "시 " + Calendar.MINUTE + "분입니다.");
-		
-	}
-	
-}
