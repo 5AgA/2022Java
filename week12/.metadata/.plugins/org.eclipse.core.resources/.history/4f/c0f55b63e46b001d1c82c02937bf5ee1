@@ -1,0 +1,9 @@
+
+public class MyColorPoint extends MyPoint{
+	public MyColorPoint(int x, int y, String color) {
+		super(x, y);
+	}
+	protected void show() {
+		System.out.println(x + "," + y + "," + color);
+	}
+}

@@ -1,0 +1,9 @@
+class Book {
+	String title;
+	double score;	
+    //코드 작성
+    public void setTitle(String t) { title = t; }
+	public void setScore(double s) { score = s;}
+	public String getTitle() { return title; }
+	public double getScore() { return score; }
+}

@@ -1,0 +1,16 @@
+
+public class VIPCustomer extends Customer{
+	private int agentID;
+	double saleRatio;
+	
+	public VIPCustomer(int id, String name, int agentID) {
+		super(id, name, "VIP");
+		this.agentID = agentID;
+		bonusRatio = 0.05;
+		saleRatio = 0.1;
+	}
+	int calcPrice(int price) {
+		bonusPoint = (int)(price * bonusRatio);
+		return (int)(price * (1 - saleRatio));
+	}
+}

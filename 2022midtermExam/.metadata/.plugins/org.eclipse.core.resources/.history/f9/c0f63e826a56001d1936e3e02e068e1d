@@ -1,0 +1,7 @@
+
+public class Word {
+	String eng;
+	String kor;	
+	// 코드 작성
+	
+}

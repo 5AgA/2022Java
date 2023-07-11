@@ -1,0 +1,13 @@
+import java.util.Calendar;
+import java.util.StringTokenizer;
+public class Cal {
+
+	public static void main(String[] args) {
+	    Calendar cal = Calendar.getInstance();
+	    cal.toString();
+	    //StringTokenizer st = new StringTokenizer();
+		System.out.println(cal.getTimeInMillis()/3600);
+		
+	}
+	
+}

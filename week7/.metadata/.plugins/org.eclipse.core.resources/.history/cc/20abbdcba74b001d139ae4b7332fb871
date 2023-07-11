@@ -1,0 +1,23 @@
+
+public class Person {
+	private int weight, height;
+	
+	public void setWeight(int w) { this.weight = w; }
+	public void setHeight(int h) { this.height = h; }
+	public int getWeight() { return weight; }
+	public int getHeight() { return height; }
+	
+	public boolean isTallerThan(Person aPerson) {
+		if (this.height > aPerson.height)
+			return true;
+		else if (this.height < aPerson.height)
+			return false;
+	}
+	public int idealWeight() { return height-110; }
+	public boolean needDiet() {
+		if (this.idealWeight() >= this.weight)
+			return false;
+		else
+			return true;
+	}
+}

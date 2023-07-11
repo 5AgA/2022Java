@@ -1,0 +1,19 @@
+
+public class Undergraduate extends Student{
+	private int year;
+	
+	void setYear(int year) { this.year = year; }
+	int getYear() { return year; }
+	
+	public Undergraduate() {
+		super();
+		setYear(0);
+	}
+	
+	public Undergraduate(int id, int tuition, double gpa, int year) {
+		setId(id);
+		setTuition(tuition);
+		setGpa(gpa);
+		setYear(year);
+	}
+}

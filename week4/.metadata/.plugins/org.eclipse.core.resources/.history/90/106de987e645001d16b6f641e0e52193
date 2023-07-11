@@ -1,0 +1,16 @@
+
+public class Training2 {
+
+	public static void main(String[] args) {
+		int i;
+		
+		for (i = 0; i < 34; i++)
+		{
+			System.out.print((i * 3 + 1));
+			if (i != 0 && i % 5 == 0)
+				System.out.println(" ");
+		}
+
+	}
+
+}

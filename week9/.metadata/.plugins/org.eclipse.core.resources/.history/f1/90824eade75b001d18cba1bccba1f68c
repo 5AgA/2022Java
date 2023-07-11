@@ -1,0 +1,14 @@
+package universe;
+import planet.A;
+
+public class D extends A{
+	void accessTest() {
+		System.out.println(pub);
+		System.out.println(pro);
+		System.out.println(def);
+		System.out.println(prv);	// private은 같은 클래스 안에서만 됨
+		
+		F fobj = new F();	// F가 public 클래스가 아니여서 다른 패키지 안됨
+		fobj.acessTest();
+	}
+}

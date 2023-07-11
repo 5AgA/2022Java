@@ -1,0 +1,15 @@
+import java.util.StringTokenizer;
+import java.util.Scanner;
+public class Test {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("문자열을 입력하시오 : ");
+		StringTokenizer st = new StringTokenizer(sc.nextLine());
+		while (st.hasMoreTokens()) {
+			System.out.print(st.nextToken());
+		}
+	}
+
+}
